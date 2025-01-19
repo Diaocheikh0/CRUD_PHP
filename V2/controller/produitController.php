@@ -4,7 +4,7 @@ class produitController {
     function index(){
         global $modelP;
         $produits = $modelP->getAll();
-        require_once './view/produit/listProduit.php';
+        require_once './view/produit/produit_list.html.twig';
     }
 
 
@@ -17,7 +17,7 @@ class produitController {
     function pageAdd(){
         global $modelP;
         $categories = $modelP->getAllCatP();
-        require_once './view/produit/addProduit.php';
+        require_once './view/produit/produit_add.html.twig';
     }
 
     function save(){
@@ -42,7 +42,7 @@ class produitController {
                 header('Location: index.php');
                 exit();
             }
-            require_once './view/produit/editProduit.php';
+            require_once './view/produit/produit_edit.html.twig';
         } else {
             header('Location: index.php?controller=produit');
             exit();

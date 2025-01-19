@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MessDetectorOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PHPCSFixerOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PHPCodeSnifferOptionsConfiguration">
+    <option name="highlightLevel" value="WARNING" />
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/V3/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/V3/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/V3/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/V3/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/V3/vendor/doctrine/persistence" />
+      <path value="$PROJECT_DIR$/V3/vendor/composer" />
+      <path value="$PROJECT_DIR$/V3/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/V3/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/V3/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/V3/vendor/symfony/cache" />
+      <path value="$PROJECT_DIR$/V3/vendor/symfony/cache-contracts" />
+      <path value="$PROJECT_DIR$/V3/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/V3/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/V3/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/V3/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/V3/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/V3/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/V3/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/V3/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/V3/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/V3/vendor/symfony/var-exporter" />
+      <path value="$PROJECT_DIR$/V3/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/V3/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/V3/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/V3/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/V3/vendor/doctrine/deprecations" />
+      <path value="$PROJECT_DIR$/V3/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/V3_copie/vendor/symfony/cache-contracts" />
+      <path value="$PROJECT_DIR$/V3_copie/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/V3_copie/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/V3_copie/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/V3_copie/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/V3_copie/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/V3_copie/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/V3_copie/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/V3_copie/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/V3_copie/vendor/symfony/var-exporter" />
+      <path value="$PROJECT_DIR$/V3_copie/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/V3_copie/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/V3_copie/vendor/doctrine/deprecations" />
+      <path value="$PROJECT_DIR$/V3_copie/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/V3_copie/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/V3_copie/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/V3_copie/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/V3_copie/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/V3_copie/vendor/doctrine/persistence" />
+      <path value="$PROJECT_DIR$/V3_copie/vendor/composer" />
+      <path value="$PROJECT_DIR$/V3_copie/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/V3_copie/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/V3_copie/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/V3_copie/vendor/symfony/cache" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="8.0">
+    <option name="suggestChangeDefaultLanguageLevel" value="false" />
+  </component>
+  <component name="PhpStanOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings custom_loader_path="$PROJECT_DIR$/V3/vendor/autoload.php" />
+    </phpunit_settings>
+  </component>
+  <component name="PsalmOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+</project>

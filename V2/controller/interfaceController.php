@@ -2,7 +2,7 @@
 
 class interfaceController {
     function index(){
-        require_once './view/interface.php';
+        require_once './view/interface.html.twig';
     }
 }
 

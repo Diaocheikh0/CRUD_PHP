@@ -3,7 +3,7 @@
 
     function index(){
        $produits = getAll();
-       require_once './view/produit/listProduit.php';
+       require_once './view/produit/produit_list.html.twig';
     }
 
 
@@ -14,7 +14,7 @@
     }
     function pageAdd(){
         $categories = getAllCatP();
-        require_once './view/produit/addProduit.php';
+        require_once './view/produit/produit_add.html.twig';
     }
 
     function save(){
@@ -37,7 +37,7 @@
                 header('Location: index.php');
                 exit();
             }
-            require_once './view/produit/editProduit.php';
+            require_once './view/produit/produit_edit.html.twig';
         } else {
             header('Location: index.php?controller=produit');
             exit();

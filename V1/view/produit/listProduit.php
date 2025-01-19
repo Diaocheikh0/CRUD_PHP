@@ -10,7 +10,7 @@
 </head>
 <body>
 <div>
-    <a href="" class="btn btn-warning btn-sm">Acceuil</a>
+    <a href="." class="btn btn-warning btn-sm">Acceuil</a>
 </div>
 <div class="container">
     <h2 class="text-center">Liste des Produits</h2>

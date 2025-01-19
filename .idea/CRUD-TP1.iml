@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/V3/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/V3_copie/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/V3/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/V3/vendor/doctrine/collections" />
+      <excludeFolder url="file://$MODULE_DIR$/V3/vendor/doctrine/dbal" />
+      <excludeFolder url="file://$MODULE_DIR$/V3/vendor/doctrine/deprecations" />
+      <excludeFolder url="file://$MODULE_DIR$/V3/vendor/doctrine/event-manager" />
+      <excludeFolder url="file://$MODULE_DIR$/V3/vendor/doctrine/inflector" />
+      <excludeFolder url="file://$MODULE_DIR$/V3/vendor/doctrine/instantiator" />
+      <excludeFolder url="file://$MODULE_DIR$/V3/vendor/doctrine/lexer" />
+      <excludeFolder url="file://$MODULE_DIR$/V3/vendor/doctrine/orm" />
+      <excludeFolder url="file://$MODULE_DIR$/V3/vendor/doctrine/persistence" />
+      <excludeFolder url="file://$MODULE_DIR$/V3/vendor/psr/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/V3/vendor/psr/container" />
+      <excludeFolder url="file://$MODULE_DIR$/V3/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/V3/vendor/symfony/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/V3/vendor/symfony/cache-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/V3/vendor/symfony/console" />
+      <excludeFolder url="file://$MODULE_DIR$/V3/vendor/symfony/deprecation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/V3/vendor/symfony/polyfill-ctype" />
+      <excludeFolder url="file://$MODULE_DIR$/V3/vendor/symfony/polyfill-intl-grapheme" />
+      <excludeFolder url="file://$MODULE_DIR$/V3/vendor/symfony/polyfill-intl-normalizer" />
+      <excludeFolder url="file://$MODULE_DIR$/V3/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/V3/vendor/symfony/service-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/V3/vendor/symfony/string" />
+      <excludeFolder url="file://$MODULE_DIR$/V3/vendor/symfony/var-exporter" />
+      <excludeFolder url="file://$MODULE_DIR$/V3/vendor/doctrine/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/V3/vendor/doctrine/common" />
+      <excludeFolder url="file://$MODULE_DIR$/V3/vendor/symfony/polyfill-php80" />
+      <excludeFolder url="file://$MODULE_DIR$/V3_copie/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/V3_copie/vendor/doctrine/collections" />
+      <excludeFolder url="file://$MODULE_DIR$/V3_copie/vendor/doctrine/dbal" />
+      <excludeFolder url="file://$MODULE_DIR$/V3_copie/vendor/doctrine/deprecations" />
+      <excludeFolder url="file://$MODULE_DIR$/V3_copie/vendor/doctrine/event-manager" />
+      <excludeFolder url="file://$MODULE_DIR$/V3_copie/vendor/doctrine/inflector" />
+      <excludeFolder url="file://$MODULE_DIR$/V3_copie/vendor/doctrine/instantiator" />
+      <excludeFolder url="file://$MODULE_DIR$/V3_copie/vendor/doctrine/lexer" />
+      <excludeFolder url="file://$MODULE_DIR$/V3_copie/vendor/doctrine/orm" />
+      <excludeFolder url="file://$MODULE_DIR$/V3_copie/vendor/doctrine/persistence" />
+      <excludeFolder url="file://$MODULE_DIR$/V3_copie/vendor/psr/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/V3_copie/vendor/psr/container" />
+      <excludeFolder url="file://$MODULE_DIR$/V3_copie/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/V3_copie/vendor/symfony/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/V3_copie/vendor/symfony/cache-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/V3_copie/vendor/symfony/console" />
+      <excludeFolder url="file://$MODULE_DIR$/V3_copie/vendor/symfony/deprecation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/V3_copie/vendor/symfony/polyfill-ctype" />
+      <excludeFolder url="file://$MODULE_DIR$/V3_copie/vendor/symfony/polyfill-intl-grapheme" />
+      <excludeFolder url="file://$MODULE_DIR$/V3_copie/vendor/symfony/polyfill-intl-normalizer" />
+      <excludeFolder url="file://$MODULE_DIR$/V3_copie/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/V3_copie/vendor/symfony/service-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/V3_copie/vendor/symfony/string" />
+      <excludeFolder url="file://$MODULE_DIR$/V3_copie/vendor/symfony/var-exporter" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
