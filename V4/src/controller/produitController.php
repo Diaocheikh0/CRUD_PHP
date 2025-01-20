@@ -6,7 +6,7 @@ class produitController {
         global $twig;
         global $modelP;
         $products = $modelP->getAll();
-        echo $twig->render('produit_list.html.twig', ['products' => $products]);
+        echo $twig->render('produit/list.twig', ['products' => $products]);
     }
 
 
@@ -20,7 +20,7 @@ class produitController {
         global $twig;
         global $modelP;
         $categories = $modelP->getAllCatP();
-        echo $twig->render('produit_add.html.twig', ['categories' => $categories]);
+        echo $twig->render('produit/add.twig', ['categories' => $categories]);
     }
 
     function save(){
@@ -46,7 +46,7 @@ class produitController {
                 header('Location: index.php');
                 exit();
             }
-            echo $twig->render('produit_edit.html.twig', ['produit' => $produit, 'categories' => $categories]);
+            echo $twig->render('produit/edit.twig', ['produit' => $produit, 'categories' => $categories]);
         } else {
             header('Location: index.php?controller=produit');
             exit();

@@ -63,6 +63,35 @@
       <path value="$PROJECT_DIR$/V3_copie/vendor/psr/container" />
       <path value="$PROJECT_DIR$/V3_copie/vendor/psr/log" />
       <path value="$PROJECT_DIR$/V3_copie/vendor/symfony/cache" />
+      <path value="$PROJECT_DIR$/V4/vendor/composer" />
+      <path value="$PROJECT_DIR$/V4/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/V4/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/V4/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/V4/vendor/symfony/cache" />
+      <path value="$PROJECT_DIR$/V4/vendor/symfony/cache-contracts" />
+      <path value="$PROJECT_DIR$/V4/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/V4/vendor/symfony/polyfill-php81" />
+      <path value="$PROJECT_DIR$/V4/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/V4/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/V4/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/V4/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/V4/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/V4/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/V4/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/V4/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/V4/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/V4/vendor/symfony/var-exporter" />
+      <path value="$PROJECT_DIR$/V4/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/V4/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/V4/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/V4/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/V4/vendor/doctrine/deprecations" />
+      <path value="$PROJECT_DIR$/V4/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/V4/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/V4/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/V4/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/V4/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/V4/vendor/doctrine/persistence" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.0">

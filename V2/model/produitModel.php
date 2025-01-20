@@ -1,6 +1,6 @@
 <?php
 
-class produitModel{
+class ProduitModel{
     function getAll(){
         global $connexion;
         $sql ="SELECT * FROM produit";

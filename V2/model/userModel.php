@@ -1,6 +1,6 @@
 <?php
 
-class userModel {
+class UserModel {
     function getAll(){
         global $connexion;
         $sql ="SELECT * FROM users";

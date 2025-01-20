@@ -5,7 +5,7 @@ class CategorieController {
         global $twig;
         global $modelC;
         $categories = $modelC->getAll();
-        echo $twig->render('list.html.twig', ["categories" => $categories]);
+        echo $twig->render('categorie/list.twig', ["categories" => $categories]);
     }
 
     function remove(){
@@ -16,7 +16,7 @@ class CategorieController {
     }
     function pageAdd(){
         global $twig;
-        echo $twig->render('add.html.twig');
+        echo $twig->render('categorie/add.twig');
     }
 
     function save(){
@@ -38,7 +38,7 @@ class CategorieController {
                 header('Location: index.php');
                 exit();
             }
-            echo $twig->render('edit.html.twig', ["categorie" => $categorie]);
+            echo $twig->render('categorie/edit.twig', ["categorie" => $categorie]);
         } else {
             header('Location: index.php?controller=categorie');
             exit();

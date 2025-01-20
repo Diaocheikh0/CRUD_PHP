@@ -10,7 +10,7 @@
 </head>
 <body>
 <div>
-    <a href="" class="btn btn-warning btn-sm">Accueil</a>
+    <a href="." class="btn btn-warning btn-sm">Accueil</a>
 </div>
 <div class="container">
     <h2 class="text-center">Liste des Utilisateurs</h2>

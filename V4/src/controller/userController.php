@@ -4,7 +4,7 @@ class userController{
         global $twig;
         global $modelU;
         $users = $modelU->getAll();
-        echo $twig->render('user_list.html.twig', ['users' => $users]);
+        echo $twig->render('users/list.twig', ['users' => $users]);
     }
 
 
@@ -17,7 +17,7 @@ class userController{
 
     function pageAdd(){
         global $twig;
-        echo $twig->render('user_add.html.twig');
+        echo $twig->render('users/add.twig');
     }
 
     function save(){
@@ -42,7 +42,7 @@ class userController{
                 header('Location: index.php?controller=user');
                 exit();
             }
-            echo $twig->render('user_edit.html.twig', ['user' => $user]);
+            echo $twig->render('users/edit.twig', ['user' => $user]);
         } else {
             header('Location: index.php?controller=user');
             exit();

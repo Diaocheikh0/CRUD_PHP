@@ -3,7 +3,7 @@ class CategorieController {
     function index(){
         global $modelC;
         $categories = $modelC->getAll();
-        require_once './view/categorie/produit_list.html.twig';
+        require_once './view/categorie/listCategorie.php';
     }
 
     function remove(){
@@ -13,7 +13,7 @@ class CategorieController {
         header('location:index.php?controller=categorie');
     }
     function pageAdd(){
-        require_once './view/categorie/produit_add.html.twig';
+        require_once './view/categorie/addCategorie.php';
     }
 
     function save(){
@@ -34,7 +34,7 @@ class CategorieController {
                 header('Location: index.php');
                 exit();
             }
-            require_once './view/categorie/produit_edit.html.twig';
+            require_once './view/categorie/editCategorie.php';
         } else {
             header('Location: index.php?controller=categorie');
             exit();

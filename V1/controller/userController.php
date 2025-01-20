@@ -3,7 +3,7 @@
 
     function index(){
         $users = getAll();
-        require_once './view/users/user_list.html.twig';
+        require_once './view/users/listUser.php';
     }
 
 
@@ -14,7 +14,7 @@
     }
 
     function pageAdd(){
-        require_once './view/users/user_add.html.twig';
+        require_once './view/users/addUser.php';
     }
 
     function save(){
@@ -36,7 +36,7 @@
                 header('Location: index.php?controller=user');
                 exit();
             }
-            require_once './view/users/user_edit.html.twig';
+            require_once './view/users/editUser.php';
         } else {
             header('Location: index.php?controller=user');
             exit();

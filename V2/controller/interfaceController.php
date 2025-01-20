@@ -1,8 +1,8 @@
 <?php
 
-class interfaceController {
+class InterfaceController {
     function index(){
-        require_once './view/interface.html.twig';
+        require_once './view/interface.php';
     }
 }
 

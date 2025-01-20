@@ -3,7 +3,7 @@ class userController{
     function index(){
         global $modelU;
         $users = $modelU->getAll();
-        require_once './src/view/users/user_list.html.twig';
+        require_once './src/view/users/listUser.php';
     }
 
 
@@ -15,7 +15,7 @@ class userController{
     }
 
     function pageAdd(){
-        require_once './src/view/users/user_add.html.twig';
+        require_once './src/view/users/addUser.php';
     }
 
     function save(){
@@ -39,7 +39,7 @@ class userController{
                 header('Location: index.php?controller=user');
                 exit();
             }
-            require_once './src/view/users/user_edit.html.twig';
+            require_once './src/view/users/editUser.php';
         } else {
             header('Location: index.php?controller=user');
             exit();

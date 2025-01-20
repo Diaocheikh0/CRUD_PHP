@@ -1,14 +1,6 @@
 <?php
 
-use controller\CategorieController;
-use controller\interfaceController;
-use controller\produitController;
-use controller\userController;
-use model\CategorieModel;
-use model\produitModel;
-use model\userModel;
-
-require_once './model/db.php';
+    require_once './model/db.php';
     require_once './model/categorieModel.php';
     require_once './model/produitModel.php';
     require_once './model/userModel.php';
