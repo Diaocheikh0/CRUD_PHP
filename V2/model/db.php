@@ -12,7 +12,7 @@ class Database{
     private $serveur="localhost";
     private $port = "5432";
     private $user="postgres";
-    private $pwd="Diaoprince30";
+    private $pwd="PASSWORD";
     private $dbname="gestion_produits";
 
     function getConnexion(){
