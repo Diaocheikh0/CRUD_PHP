@@ -12,7 +12,7 @@
 $serveur="localhost";
 $port = "5432";
 $user="postgres";
-$pwd="Diaoprince30";
+$pwd="PASSWORD";
 $dbname="gestion_produits";
 
 $connexion = pg_connect("host=$serveur port=$port dbname=$dbname user=$user password=$pwd");
